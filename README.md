@@ -1,4 +1,4 @@
-# StartupCo AWS Identity & Security Hardening🔒
+# AWS Identity & Security Hardening🔒
 
 **Status:** Complete  
 **Environment:** Deployment validated | Lab environment  
