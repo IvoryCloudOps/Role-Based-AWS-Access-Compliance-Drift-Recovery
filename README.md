@@ -6,7 +6,7 @@
 
 Designed and implemented an AWS identity and security-hardening solution for a simulated 10-person startup. The project establishes centralized workforce access, role-based permissions, secure EC2 administration, and continuous security monitoring using AWS-native services and Terraform.
 
-**📖 [Full Engineering Case Study on Medium]([PASTE_YOUR_MEDIUM_ARTICLE_URL_HERE](https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops))** — Architecture decisions, implementation details, permission testing, security incident simulation, and remediation evidence.
+**📖 [Full Engineering Case Study on Medium] (https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)** — Architecture decisions, implementation details, permission testing, security incident simulation, and remediation evidence.
 
 ---
 
