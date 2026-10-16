@@ -6,7 +6,9 @@
 
 Designed and implemented an AWS identity and security-hardening solution for a simulated 10-person startup. The project establishes centralized workforce access, role-based permissions, secure EC2 administration, and continuous security monitoring using AWS-native services and Terraform.
 
-**📖 [Full Engineering Case Study on Medium] (https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)** — Architecture decisions, implementation details, permission testing, security incident simulation, and remediation evidence.
+**📖 [Full Engineering Case Study on Medium] Architecture decisions, implementation details, permission testing, security incident simulation, and remediation evidence.
+
+(https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)**
 
 ---
 
@@ -62,7 +64,9 @@ Also simulated an S3 security misconfiguration and verified the detection-to-rec
 4. Terraform identified the configuration drift and proposed corrective changes.
 5. AWS Config returned to compliant status, and a final Terraform plan reported no changes.
 
-**[View permission testing, screenshots, and remediation evidence on Medium] (https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)**
+**[View permission testing, screenshots, and remediation evidence on Medium]
+
+(https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)**
 
 ## 4. What I'd Do Differently at Production Scale📈
 
@@ -76,4 +80,6 @@ Also simulated an S3 security misconfiguration and verified the detection-to-rec
 
 **Source Code:** This repository contains the Terraform configurations used to implement the infrastructure and security controls.
 
-**Detailed Case Study:** [StartupCo AWS Identity & Security Hardening — Medium] (https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops))
+**Detailed Case Study:** [StartupCo AWS Identity & Security Hardening — Medium]
+
+(https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)
