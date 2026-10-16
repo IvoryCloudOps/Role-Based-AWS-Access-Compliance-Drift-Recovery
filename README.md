@@ -1,4 +1,4 @@
-# StartupCo AWS Identity & Security Hardening
+# StartupCo AWS Identity & Security Hardening🔒
 
 **Status:** Complete  
 **Environment:** Deployment validated | Lab environment  
@@ -6,11 +6,11 @@
 
 Designed and implemented an AWS identity and security-hardening solution for a simulated 10-person startup. The project establishes centralized workforce access, role-based permissions, secure EC2 administration, and continuous security monitoring using AWS-native services and Terraform.
 
-**📖 [Full Engineering Case Study on Medium](PASTE_YOUR_MEDIUM_ARTICLE_URL_HERE)** — Architecture decisions, implementation details, permission testing, security incident simulation, and remediation evidence.
+**📖 [Full Engineering Case Study on Medium]([PASTE_YOUR_MEDIUM_ARTICLE_URL_HERE](https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops))** — Architecture decisions, implementation details, permission testing, security incident simulation, and remediation evidence.
 
 ---
 
-## 1. Business Problem
+## 1. Business Problem🏢
 
 StartupCo needed to replace shared administrative access with a more secure, accountable identity management solution while maintaining appropriate access for different job functions.
 
@@ -21,7 +21,7 @@ The solution addresses:
 - Insecure administrative access to EC2 instances.
 - Limited visibility into security events and configuration changes.
 
-## 2. Architecture
+## 2. Architecture🏗️
 
 The solution combines centralized identity management, AWS security services, and Infrastructure as Code.
 
@@ -40,7 +40,7 @@ The solution combines centralized identity management, AWS security services, an
 ![StartupCo AWS Identity & Security Hardening Architecture](Doc/Architecture/startupco-security-architecture.png)
 
 
-## 3. Key Decisions & Why
+## 3. Key Decisions & Why🤔
 
 | Decision | Engineering rationale |
 |---|---|
@@ -64,7 +64,7 @@ Also simulated an S3 security misconfiguration and verified the detection-to-rec
 
 **[View permission testing, screenshots, and remediation evidence on Medium](PASTE_YOUR_MEDIUM_ARTICLE_URL_HERE)**
 
-## 4. What I'd Do Differently at Production Scale
+## 4. What I'd Do Differently at Production Scale📈
 
 - **Multi-account architecture:** Separate production, development, logging, and security workloads using AWS Organizations.
 - **Stronger permission boundaries:** Further restrict broad operational permissions using resource-level conditions, service control policies, and periodic access reviews.
@@ -76,7 +76,7 @@ Also simulated an S3 security misconfiguration and verified the detection-to-rec
 
 **Source Code:** This repository contains the Terraform configurations used to implement the infrastructure and security controls.
 
-**Detailed Case Study:** [StartupCo AWS Identity & Security Hardening — Medium](PASTE_YOUR_MEDIUM_ARTICLE_URL_HERE)
+**Detailed Case Study:** [StartupCo AWS Identity & Security Hardening — Medium]([PASTE_YOUR_MEDIUM_ARTICLE_URL_HERE](https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops))
 
 
 
