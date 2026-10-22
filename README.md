@@ -1,4 +1,4 @@
-# AWS Identity & Security Hardening🔒
+# Least-Privilege Access & Compliance Drift Recovery🔒☁️
 
 **Status:** Complete  
 **Environment:** Deployment validated | Lab environment  
@@ -6,9 +6,7 @@
 
 Designed and implemented an AWS identity and security-hardening solution for a simulated 10-person startup. The project establishes centralized workforce access, role-based permissions, secure EC2 administration, and continuous security monitoring using AWS-native services and Terraform.
 
-**📖 [Full Engineering Case Study on Medium] Architecture decisions, implementation details, permission testing, security incident simulation, and remediation evidence.
-
-(https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)**
+**📖 [Full Engineering Case Study on Medium](https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops) Architecture decisions, implementation details, permission testing, security incident simulation, and remediation evidence.
 
 ---
 
@@ -25,8 +23,8 @@ The solution addresses:
 
 ## 2. Architecture🏗️
 
-The solution combines centralized identity management, AWS security services, and Infrastructure as Code.
-
+**The solution combines centralized identity management, AWS security services, and Infrastructure as Code**
+![Role-Based AWS Access & Compliance Drift Recovery](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*R9AtzY91INhs9X6-rqvz9w.png)
 **Core components:**
 
 - **IAM Identity Center:** Centralized SSO and group-based permission sets for Developers, Operations, Finance, and Analysts.
@@ -36,10 +34,6 @@ The solution combines centralized identity management, AWS security services, an
 - **GuardDuty & Security Hub CSPM:** Threat detection and centralized security posture visibility.
 - **EventBridge & SNS:** Event-driven notifications for compliance changes.
 - **Terraform:** Repeatable infrastructure provisioning, security configuration, and drift remediation.
-
-**Architecture Diagram**
-
-![StartupCo AWS Identity & Security Hardening Architecture](Doc/Architecture/startupco-security-architecture.png)
 
 
 ## 3. Key Decisions & Why🤔
