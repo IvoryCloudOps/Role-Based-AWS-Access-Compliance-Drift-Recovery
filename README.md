@@ -1,4 +1,4 @@
-# Least-Privilege Access & Compliance Drift Recovery🔒☁️
+# Role-Based AWS Access & Compliance Drift Recovery🔒☁️
 
 **Status:** Complete  
 **Environment:** Deployment validated | Lab environment  
@@ -58,9 +58,7 @@ Also simulated an S3 security misconfiguration and verified the detection-to-rec
 4. Terraform identified the configuration drift and proposed corrective changes.
 5. AWS Config returned to compliant status, and a final Terraform plan reported no changes.
 
-**[View permission testing, screenshots, and remediation evidence on Medium]
-
-(https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)**
+**[View permission testing, screenshots, and remediation evidence on Medium](https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)**
 
 ## 4. What I'd Do Differently at Production Scale📈
 
@@ -74,6 +72,4 @@ Also simulated an S3 security misconfiguration and verified the detection-to-rec
 
 **Source Code:** This repository contains the Terraform configurations used to implement the infrastructure and security controls.
 
-**Detailed Case Study:** [StartupCo AWS Identity & Security Hardening — Medium]
-
-(https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)
+**Detailed Case Study:** [Role-Based AWS Access & Compliance Drift Recovery — Medium](https://medium.com/@ivorycloudops/hardening-aws-access-for-a-10-person-startup-with-iam-identity-center-and-terraform-%EF%B8%8F-54ef035be24c?sharedUserId=ivorycloudops)
